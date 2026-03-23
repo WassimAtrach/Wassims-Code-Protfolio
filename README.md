@@ -4,7 +4,7 @@
 
 This repository features a dual-approach to digital identity, comparing traditional manual development with AI-driven design to explore the impact of **Prompt Engineering** on modern workflows.
 
-[**🌐 View Gaming Portfolio (Coded)**](https://github.com/WassimAtrach/Gaming-Portfolio) | [**🌐 View Cyber Portfolio (Base44)**](https://wassim-protfolio.base44.app)
+[**🌐 https://wassimatrach.github.io/Wassims-Code-Protfolio/**](https://wassimatrach.github.io/Wassims-Code-Protfolio/) | [**🌐 https://wassim-protfolio.base44.app**](https://wassim-protfolio.base44.app)
 
 ---
 
