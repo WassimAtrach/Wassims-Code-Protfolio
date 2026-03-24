@@ -897,8 +897,58 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .topbar {
+        position: static;
+        backdrop-filter: blur(5px);
+    }
+
+    .topbar-inner {
+        min-height: auto;
+        gap: 0.55rem;
+        padding: 0.65rem 0;
+    }
+
+    .identity {
+        width: 100%;
+        text-align: center;
+        font-size: 0.74rem;
+    }
+
+    .level-links {
+        gap: 0.35rem;
+    }
+
+    .level-links a {
+        padding: 0.32rem 0.48rem;
+        font-size: 0.52rem;
+    }
+
+    .contact-links a {
+        padding: 0.36rem 0.72rem;
+        font-size: 0.74rem;
+    }
+
+    section {
+        padding: 3.3rem 0;
+    }
+
+    .hero {
+        padding-top: 1.2rem;
+    }
+
     .project-card {
-        grid-template-rows: 180px auto;
+        grid-template-rows: auto auto;
+    }
+
+    .project-image {
+        display: block;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    .project-body {
+        border-top: 1px solid rgba(92, 247, 255, 0.18);
+        background: linear-gradient(180deg, rgba(10, 20, 38, 0.96), rgba(13, 24, 42, 0.96));
     }
 
     .project-body {
@@ -932,8 +982,8 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .project-card {
-        grid-template-rows: 140px auto;
+    .project-image {
+        aspect-ratio: 4 / 3;
     }
 
     .projects-grid {
